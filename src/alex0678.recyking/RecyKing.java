@@ -15,7 +15,7 @@ public class RecyKing extends Canvas implements Runnable{
     private JFrame frame;
     private boolean RUNNING = false;
     
-    public RecyKing(){
+    public RecyKing(){ //test
         setPreferredSize(new Dimension(WIDTH,HEIGHT));
         setMinimumSize(new Dimension(WIDTH,HEIGHT));
         setMaximumSize(new Dimension(WIDTH,HEIGHT));
